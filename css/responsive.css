@@ -1,0 +1,212 @@
+/* ==========================================================================
+   RESPONSIVE STYLES — MOHAMED SHEHAB GAAFAR PORTFOLIO
+   Breakpoints: 320px, 375px, 425px, 768px, 1024px, 1440px
+   ========================================================================== */
+
+/* Laptop & Desktop Adjustments (<= 1024px) */
+@media (max-width: 1024px) {
+  :root {
+    --section-padding-y: 80px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    text-align: center;
+  }
+
+  .hero-quote {
+    justify-content: center;
+  }
+
+  .hero-bio {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .security-console-widget {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .hero-image-wrapper {
+    order: -1;
+  }
+
+  .hero-image-frame {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .about-grid, .research-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+/* Tablet Adjustments (<= 768px) */
+@media (max-width: 768px) {
+  :root {
+    --section-padding-y: 64px;
+    --nav-height: 64px;
+  }
+
+  .top-strip-container {
+    justify-content: center;
+  }
+
+  .strip-items {
+    gap: 14px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .hero-name {
+    font-size: 2.75rem;
+  }
+
+  .hero-title {
+    font-size: 1.3rem;
+  }
+
+  .section-number {
+    font-size: 3.5rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .cert-grid, .learning-grid, .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .counters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .flip-card {
+    height: 440px;
+  }
+
+  .contact-card {
+    padding: 32px 20px;
+  }
+
+  .contact-headline {
+    font-size: 1.85rem;
+  }
+}
+
+/* Mobile Small (<= 425px) */
+@media (max-width: 425px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .strip-items {
+    gap: 10px;
+  }
+
+  .strip-item {
+    font-size: 0.72rem;
+    padding: 2px 4px;
+    gap: 4px;
+  }
+
+  .hero-name {
+    font-size: 2.2rem;
+  }
+
+  .hero-alias {
+    font-size: 0.95rem;
+    padding: 2px 8px;
+  }
+
+  .hero-title {
+    font-size: 1.15rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.92rem;
+  }
+
+  .hero-quote {
+    font-size: 0.88rem;
+  }
+
+  .security-console-widget {
+    margin-top: 20px;
+  }
+
+  .console-header {
+    padding: 8px 12px;
+  }
+
+  .console-title {
+    font-size: 0.65rem;
+  }
+
+  .console-body {
+    padding: 12px 14px;
+    font-size: 0.76rem;
+    min-height: 180px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px 20px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .skill-category-card, .learning-card, .research-main-card, .thm-spotlight-card, .about-text-card {
+    padding: 20px;
+  }
+
+  .flip-card-front, .flip-card-back {
+    padding: 16px;
+  }
+
+  .cert-image-frame {
+    height: 180px;
+  }
+
+  .flip-card {
+    height: 420px;
+  }
+}
+
+/* Mobile Ultra Small (<= 350px) */
+@media (max-width: 350px) {
+  .strip-item .strip-text {
+    display: none;
+  }
+
+  .strip-item {
+    padding: 4px;
+  }
+
+  .hero-name {
+    font-size: 1.85rem;
+  }
+
+  .section-number {
+    font-size: 2.8rem;
+  }
+}
+
