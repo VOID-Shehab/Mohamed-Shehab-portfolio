@@ -103,7 +103,7 @@ const skillsData = [
 const certificationsData = [
   {
     id: "gdg-cybersecurity",
-    title: "25/26 GDG on Campus Technical Cybersecurity — Certificate of Appreciation",
+    title: "GDG on Campus Technical Cybersecurity Mentor ",
     organization: "Google Developer Group (GDG) on Campus, Benha National University",
     duration: "Academic Year 25/26",
     completionDate: "2025/2026",
